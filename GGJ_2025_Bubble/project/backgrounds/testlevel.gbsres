@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "eb18a1d1-7c82-4109-91ee-fba0f53c52ea",
+  "name": "TestLevel",
+  "symbol": "bg_testlevel",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TestLevel.png",
+  "tileColors": ""
+}

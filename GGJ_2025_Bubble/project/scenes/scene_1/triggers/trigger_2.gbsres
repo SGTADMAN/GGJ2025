@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "c2318a25-2c4d-4829-93e4-3cb35d117c61",
+  "name": "",
+  "prefabId": "",
+  "x": 16,
+  "y": 15,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press Left & Right\nto move",
+                "Press B to jump.",
+                "The arch up there\nis the goal."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0f001db0-6d79-465f-8a44-f523c4b753a0"
+          }
+        ]
+      },
+      "id": "5cbf996c-9543-473e-a9c6-fb366c39c29f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "92d68e14-7264-4920-b57e-ca836a21f899"
+    }
+  ],
+  "_index": 1
+}

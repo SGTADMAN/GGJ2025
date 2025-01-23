@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "925fe136-b6ba-4eab-a38e-ae552c4ac8c2",
+  "name": "PlatformingTiles",
+  "symbol": "tileset_platformingtiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "PlatformingTiles.png"
+}

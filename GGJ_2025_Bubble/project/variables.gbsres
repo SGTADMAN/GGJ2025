@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "WalkSpeed",
+      "symbol": "var_walkspeed"
+    },
+    {
+      "id": "1",
+      "name": "RunSpeed",
+      "symbol": "var_runspeed"
+    }
+  ]
 }
