@@ -14,7 +14,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": false,
         "__scriptTabs": "press"
@@ -25,8 +25,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press Left & Right\nto move",
-                "Press B to jump.",
+                "Press Left & Right\nto move.",
+                "Press A to jump.\nPress B to run.",
+                "Press B to\ninteract.",
                 "The arch up there\nis the goal."
               ],
               "__section": "text",
@@ -42,7 +43,7 @@
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
@@ -58,7 +59,7 @@
       "command": "EVENT_REMOVE_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ]
       },
       "id": "92d68e14-7264-4920-b57e-ca836a21f899"

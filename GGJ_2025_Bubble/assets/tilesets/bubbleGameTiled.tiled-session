@@ -3,11 +3,27 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "TestLevel2.tmx",
+    "activeFile": "Level10.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "HardLevelTest.tmx": {
+            "scale": 6.003472222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03701561596299,
+                "y": 71.95835743204164
+            }
+        },
+        "Level10.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.83333333333334,
+                "y": 53.33333333333334
+            }
+        },
         "PlatformingTiles.tsx": {
             "scaleInDock": 2,
             "scaleInEditor": 1
@@ -30,21 +46,22 @@
         }
     },
     "last.imagePath": "F:/Projects/Game Jams/GGJ2025/GGJ_2025_Bubble/assets/tilesets",
-    "map.height": 18,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 256,
     "openFiles": [
         "PlatformingTiles.tsx",
-        "PlatformingTilesLevels.tmx",
-        "TestLevel2.tmx"
+        "Level10.tmx"
     ],
     "project": "bubbleGameTiled.tiled-project",
     "recentFiles": [
         "PlatformingTiles.tsx",
-        "PlatformingTilesLevels.tmx",
-        "TestLevel2.tmx"
+        "Level10.tmx",
+        "HardLevelTest.tmx",
+        "TestLevel2.tmx",
+        "PlatformingTilesLevels.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

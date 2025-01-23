@@ -14,7 +14,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": false,
         "__scriptTabs": "press"
@@ -40,7 +40,7 @@
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
@@ -56,7 +56,7 @@
       "command": "EVENT_REMOVE_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ]
       },
       "id": "e206d942-aa1e-42d8-913c-c9b3a0683a00"

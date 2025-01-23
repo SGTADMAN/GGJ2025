@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ce325ddb-6477-467d-8323-db4770eae7fb",
+  "name": "HardLevelTest",
+  "symbol": "bg_hardleveltest",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HardLevelTest.png",
+  "tileColors": ""
+}
