@@ -1,0 +1,59 @@
+{
+  "_resourceType": "scene",
+  "id": "8c45c08b-dd41-4a24-bbf4-8c2770a4ba6c",
+  "_index": 9,
+  "name": "Level7",
+  "backgroundId": "29a85b5e-72e8-4455-9582-e53c5d9c5667",
+  "tilesetId": "",
+  "width": 100,
+  "height": 30,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0023+0f!005+0f!003a+0223+0f!005+0f!023a+001f4+015+0092+0f!006+0f!005c+0f!006+0f!00c+013+004d+0f!006+0f!004+012+001f+014+009+012+0028+0f!006+0f!005c+0f!006+0f!0012+012+007+012+003f+0f!006+0f!004d+014+00b+0f!006+0f!0036+012+001d+012+005+0f!006+0f!005c+0f!006+0f!0020+012+003a+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!0036+012+005+012+006+014+00c+012+005+0f!006+0f!005c+0f!006+0f4+0016+014+003f+0f!006+0f!002+0f!0059+0f!006+0f!002+0f!0059+0f!006+0f!002+0f!0060+0f!002+0f!0052+012+00c+0f!002+0f!001c+0f3+004+013+003a+0f!002+0f!001c+0f!00!0f!0041+0f!002+0f!001c+0f!00!0f!0037+0fb+002+0f!001c+0f!00!0f!007+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 896,
+  "y": 912,
+  "script": [
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "e0372a7d-9c62-487c-9f5e-914c423a55eb"
+      },
+      "id": "544259e0-3321-453b-acb4-af291c0ed5bb"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "2a4e9fb0-eeb3-42e8-bd20-fe8ed1c06cbf",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "9290ef7d-76eb-426e-be0d-31bbe39db161"
+          }
+        ]
+      },
+      "id": "be8fd5cd-649f-4f6e-84cf-5626e14f62ab"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf5e4a9-d4ac-4b94-89a1-e2d7f1c8f5cc"
+}

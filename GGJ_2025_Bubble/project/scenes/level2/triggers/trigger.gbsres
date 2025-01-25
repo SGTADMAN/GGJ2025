@@ -1,0 +1,80 @@
+{
+  "_resourceType": "trigger",
+  "id": "b2e7297f-814e-4766-8cd0-12fe39b11e06",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 12,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "3871224a-85a7-44f5-8518-135ef7384b2b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Use platforms to\nreach high places."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "c76b6f93-b2b3-4346-b1d3-deb1337d050c"
+          }
+        ]
+      },
+      "id": "995e5bd0-870b-4fc3-b568-f136b11f44bd"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "dc6b7d79-04c8-4d7e-bcc7-00919c839fc7"
+    }
+  ],
+  "_index": 0
+}

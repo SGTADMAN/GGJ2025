@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "d34354a8-7a8a-44fa-ae34-fbda98dbb718",
+  "name": "",
+  "prefabId": "",
+  "x": 54,
+  "y": 27,
+  "symbol": "trigger_43",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "ec8b2f64-ea95-48b1-b6b0-528ff287bd53"
+      },
+      "id": "8c1d11ea-02c5-4001-b9f5-ca3f651fde19"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 8
+}

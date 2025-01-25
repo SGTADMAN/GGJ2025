@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+  "name": "Bloop.wav",
+  "symbol": "sound_bloop_wav",
+  "filename": "Bloop.wav",
+  "type": "wav"
+}

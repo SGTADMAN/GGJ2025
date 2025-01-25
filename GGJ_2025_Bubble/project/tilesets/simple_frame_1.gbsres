@@ -1,0 +1,24 @@
+{
+  "_resourceType": "tileset",
+  "id": "e0372a7d-9c62-487c-9f5e-914c423a55eb",
+  "name": "Simple frame 1",
+  "symbol": "sprite_simple_frame_1",
+  "numFrames": 1.5,
+  "filename": "Simple frame 1.png",
+  "checksum": "4757d84a3fd9727b8f816d5d8afa113f75d1865d",
+  "width": 3,
+  "height": 3,
+  "states": [
+    "77ab673d-bd57-4366-ad7d-8c2d39a34431"
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "imageWidth": 24,
+  "imageHeight": 24
+}

@@ -1,0 +1,78 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "453e76c2-c51c-40c5-810b-ec383b9a1f0e",
+  "name": "",
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "554f3097-973e-4481-bf67-1fc7d89ee2f2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press Left & Right\nto move.",
+                "Press A to jump.\nPress B to run.",
+                "Press B to\ninteract.",
+                "The arch up there\nis the goal."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0cc4e318-69ab-4819-9ef3-a38ed4e7c9e7",
+            "children": {}
+          }
+        ]
+      },
+      "id": "b648f1b0-5bdc-4cb5-b226-4367814a765c"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "279e64cb-e5a9-4edd-8718-0cdd49d6cb9f",
+      "children": {}
+    }
+  ]
+}

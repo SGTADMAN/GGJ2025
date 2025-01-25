@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "9646dfa6-3d9c-45a9-b5b4-4a977786fed9",
+  "name": "Level4",
+  "symbol": "tileset_level4",
+  "width": 20,
+  "height": 33,
+  "imageWidth": 160,
+  "imageHeight": 264,
+  "filename": "Level4.png"
+}

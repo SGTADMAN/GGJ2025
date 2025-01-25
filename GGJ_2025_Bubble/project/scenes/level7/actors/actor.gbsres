@@ -1,0 +1,71 @@
+{
+  "_resourceType": "actor",
+  "id": "85bfe9a6-8f47-4de2-b24a-73527ebb4e69",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37d894cf-be87-4c87-98bb-4018b47300c3",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "26d8a030-0ffd-4a9d-8647-20217ef274f7",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "2108d7f6-8646-4204-81ba-984200183c44"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!This one is\nharder than the\nrest.",
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!By the way...",
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!Did you know\nthat I have a\nwebsite?",
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!It's...",
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!adamluttonblog\n.co.uk",
+          "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!You can find my\nother socials\nthere too!"
+        ],
+        "__section": "text",
+        "avatarId": "c02762b8-15c0-47c2-aba3-fb7863d807d0",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a0033a97-f276-4c00-81aa-d49e1355e228"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 98,
+  "y": 9,
+  "_index": 0
+}

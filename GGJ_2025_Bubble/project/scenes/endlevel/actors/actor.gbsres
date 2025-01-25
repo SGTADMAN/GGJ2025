@@ -1,0 +1,90 @@
+{
+  "_resourceType": "actor",
+  "id": "82d01f17-2460-42e1-80b8-9f457c813630",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37d894cf-be87-4c87-98bb-4018b47300c3",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "a0c573a7-bcc6-41c7-a2be-55bb83fce75f",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "1c501e8f-8c1f-4598-adb1-f794a2f365c0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Well, that's the\nend.",
+          "Unfortunately,\nI didn't have\nthe time to make\nmore.",
+          "Between\nrebuilding my PC\nand power cuts,",
+          "this was all I\ncould muster.",
+          "I hope you\nenjoyed it at\nleast.",
+          "You can see more\nof my games\nat...",
+          "sgtadman.itch.io",
+          "Thanks for\nplaying!"
+        ],
+        "__section": "text",
+        "avatarId": "68f66681-f647-4d92-81b6-9d89371290d1",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dace77dd-9aed-4611-8851-33a77a91769e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6e43f151-25d8-4636-af3a-f9ff0cb60290",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a743f167-7544-48ba-89e2-3b3cb7ea10d7"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 13,
+  "_index": 0
+}

@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Level10.tmx",
+    "activeFile": "Level4.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -16,12 +16,76 @@
                 "y": 71.95835743204164
             }
         },
+        "Level1.tmx": {
+            "scale": 6.003472222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.95373048004626,
+                "y": 72.04164256795836
+            }
+        },
         "Level10.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.83333333333334,
-                "y": 53.33333333333334
+                "x": 523.6666666666666,
+                "y": 79.83333333333331
+            }
+        },
+        "Level2.tmx": {
+            "scale": 6.003472222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03701561596299,
+                "y": 71.95835743204164
+            }
+        },
+        "Level3.tmx": {
+            "scale": 6.003472222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.95373048004626,
+                "y": 72.04164256795836
+            }
+        },
+        "Level4.tmx": {
+            "scale": 3.4858870967741935,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.89358010410642,
+                "y": 86.06130711393871
+            }
+        },
+        "Level5.tmx": {
+            "scale": 3.4858870967741935,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.03701561596299,
+                "y": 124.07171775592829
+            }
+        },
+        "Level6.tmx": {
+            "scale": 6.003472222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.95373048004626,
+                "y": 72.04164256795836
+            }
+        },
+        "Level7.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 400,
+                "y": 120.16666666666666
+            }
+        },
+        "Level8.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 72.81818181818183,
+                "y": 86.90909090909092
             }
         },
         "PlatformingTiles.tsx": {
@@ -46,22 +110,37 @@
         }
     },
     "last.imagePath": "F:/Projects/Game Jams/GGJ2025/GGJ_2025_Bubble/assets/tilesets",
-    "map.height": 36,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 256,
+    "map.width": 40,
     "openFiles": [
         "PlatformingTiles.tsx",
-        "Level10.tmx"
+        "Level10.tmx",
+        "Level1.tmx",
+        "Level2.tmx",
+        "Level3.tmx",
+        "Level4.tmx",
+        "Level5.tmx",
+        "Level6.tmx",
+        "Level7.tmx",
+        "Level8.tmx"
     ],
     "project": "bubbleGameTiled.tiled-project",
     "recentFiles": [
         "PlatformingTiles.tsx",
         "Level10.tmx",
+        "Level1.tmx",
+        "Level2.tmx",
+        "Level3.tmx",
+        "Level8.tmx",
+        "Level7.tmx",
+        "Level6.tmx",
+        "Level5.tmx",
+        "Level4.tmx",
         "HardLevelTest.tmx",
-        "TestLevel2.tmx",
-        "PlatformingTilesLevels.tmx"
+        "TestLevel2.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

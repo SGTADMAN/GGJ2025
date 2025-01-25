@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "b2f16074-13cf-4c38-85b5-d1d17c832576",
+  "name": "Death.wav",
+  "symbol": "sound_death_wav",
+  "filename": "Death.wav",
+  "type": "wav"
+}

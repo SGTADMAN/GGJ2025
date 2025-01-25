@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "c08e86db-7bbf-40a9-8703-b8a8a1d06bd0",
+  "name": "",
+  "prefabId": "",
+  "x": 56,
+  "y": 27,
+  "symbol": "trigger_35",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "a472f7aa-4cf4-4e29-9d43-2353795c6001"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!If you die beyond\nthis point,",
+                "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!you will respawn\nhere.",
+                "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!Hurray for\ncheckpoints!"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c5628652-9b87-4655-ac04-79ff340997e4"
+          }
+        ]
+      },
+      "id": "2dff3185-62ba-4e61-b217-a4b7d3f7e849"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "f7b7b564-15e4-42be-a4e4-f7725a6bf08b"
+    }
+  ],
+  "_index": 1
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d6dfe693-5d89-4d75-b94c-a24b2863b354",
+  "name": "DingoLogo",
+  "symbol": "bg_dingologo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DingoLogo.png",
+  "tileColors": ""
+}

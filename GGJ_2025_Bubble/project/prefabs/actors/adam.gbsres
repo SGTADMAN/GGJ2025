@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "189a031f-3292-4118-824b-98a2fd508f11",
+  "name": "Adam",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37d894cf-be87-4c87-98bb-4018b47300c3",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm pretty sure\nit is impossible",
+          "for you to be\nhere.",
+          "But if you made it\nto me, send me",
+          "a screenshot\nproving it."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a825979d-5c71-4ee7-9cb9-c4f70e9fd6d9",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -8,5 +8,6 @@
   "imageWidth": 1024,
   "imageHeight": 160,
   "filename": "Level10.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

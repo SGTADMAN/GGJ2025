@@ -1,0 +1,70 @@
+{
+  "_resourceType": "actor",
+  "id": "68934bb2-2888-4dee-9d21-7d2734a64b68",
+  "name": "Adam",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37d894cf-be87-4c87-98bb-4018b47300c3",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_2",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "0e4bef22-0e2d-454d-9fb9-9ad97ceb02c3",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "99411b01-24ae-4b9b-9eb8-8eef4afc41b7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm pretty sure\nit is impossible",
+          "for you to be\nhere.",
+          "But if you made\nit to me,\nsend me",
+          "a screenshot\nproving it."
+        ],
+        "__section": "behavior",
+        "avatarId": "68f66681-f647-4d92-81b6-9d89371290d1",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "18c17be2-1096-475e-9fe9-1be98da976c4",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 11,
+  "_index": 0
+}

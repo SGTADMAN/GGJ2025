@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "adfead02-5303-43aa-96a0-872dfd4d4a19",
+  "name": "",
+  "prefabId": "453e76c2-c51c-40c5-810b-ec383b9a1f0e",
+  "x": 9,
+  "y": 12,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {
+    "0cc4e318-69ab-4819-9ef3-a38ed4e7c9e7": {
+      "id": "0cc4e318-69ab-4819-9ef3-a38ed4e7c9e7",
+      "args": {
+        "text": [
+          "Press Left & Right\nto move.",
+          "Press A to jump.\nPress B to run.",
+          "Press B to\ninteract.",
+          "The arch over\nthere is the goal."
+        ],
+        "__section": "behavior"
+      }
+    },
+    "554f3097-973e-4481-bf67-1fc7d89ee2f2": {
+      "id": "554f3097-973e-4481-bf67-1fc7d89ee2f2",
+      "args": {
+        "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f"
+      }
+    }
+  },
+  "width": 2,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

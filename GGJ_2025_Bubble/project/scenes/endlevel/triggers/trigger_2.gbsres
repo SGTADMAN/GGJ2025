@@ -1,0 +1,81 @@
+{
+  "_resourceType": "trigger",
+  "id": "54c44d03-07b2-4f8a-985e-c2baa340eb0a",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 12,
+  "symbol": "trigger_51",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "3b984f64-c05c-45e0-a017-2b04c5903f91"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This game was made\nin GBStudio.",
+                "Made by\nAdam Lutton",
+                "for Global Game\nJam 2025."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e314e097-0945-46df-bde1-9db74e35b07f"
+          }
+        ]
+      },
+      "id": "93dfa80f-b2d6-4f12-9390-db8fa6073ee7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "8fb00266-dd69-4d75-9983-f040c0889625"
+    }
+  ],
+  "_index": 1
+}

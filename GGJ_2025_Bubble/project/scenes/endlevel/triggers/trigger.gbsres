@@ -1,0 +1,80 @@
+{
+  "_resourceType": "trigger",
+  "id": "f7e98bca-becb-4dc3-b8a1-417506c68ab5",
+  "name": "",
+  "prefabId": "",
+  "x": 29,
+  "y": 12,
+  "symbol": "trigger_50",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "a183aeec-5b91-4877-a4b5-908bb4cf2862"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Welcome to the\nend!",
+                "Thanks for\nplaying!"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "98f5e075-1638-4ffc-b39c-f53a67f17a8d"
+          }
+        ]
+      },
+      "id": "44002ad8-1e3d-431a-9d2a-772941f485b4"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "d0311202-74bd-4736-b01c-17618427c04d"
+    }
+  ],
+  "_index": 0
+}

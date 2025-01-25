@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "bbb3ec4f-8cc6-486e-9005-2fa30fe74f6f",
+  "_index": 6,
+  "name": "Level4",
+  "backgroundId": "aefaf9cf-ebfd-4548-987c-480db82738f1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 33,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0094+0f4+0011+0f!007+012+00a+0f!0013+0f!0013+0f!00d+0f7+004+012+0059+012+007+012+0059+012+007+012+0059+012+007+012+002c+0f6+0013+0f!003+0f2+00e+0f!003+0f2+009+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1560,
+  "y": 600,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "2a4e9fb0-eeb3-42e8-bd20-fe8ed1c06cbf",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "a7554670-4bd6-49e4-b150-e3a638708e36"
+          }
+        ]
+      },
+      "id": "27b7026c-6a15-44e8-b6d1-67162bc8b09c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ec8b2f64-ea95-48b1-b6b0-528ff287bd53"
+}

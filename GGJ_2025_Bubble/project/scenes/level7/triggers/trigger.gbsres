@@ -1,0 +1,79 @@
+{
+  "_resourceType": "trigger",
+  "id": "20f54ec3-2876-4886-b08a-92341a5533ac",
+  "name": "",
+  "prefabId": "",
+  "x": 59,
+  "y": 19,
+  "symbol": "trigger_34",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "57a25ea9-d824-4f02-a9de-947c6cadec5f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "33dbe432-870a-4c06-a803-e325dc050839"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:47e7fb8f-7e4f-4390-a441-5d7089b340c5!There's no way\nout of this one."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "750428cd-17a5-4e7a-8800-2f4b270784fd"
+          }
+        ]
+      },
+      "id": "245f3c77-d07a-4fab-95ec-9eb57c2f2ccc"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "172084e2-11c8-446f-bf0f-e68311f02954"
+    }
+  ],
+  "_index": 0
+}

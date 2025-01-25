@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5ae0b439-409d-4ccb-8c95-b8d39825fd4e",
+  "name": "Teleport.wav",
+  "symbol": "sound_teleport_wav",
+  "filename": "Teleport.wav",
+  "type": "wav"
+}

@@ -1,0 +1,69 @@
+{
+  "_resourceType": "actor",
+  "id": "afd6a0b8-6804-4650-be68-0e7e424ca8ee",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "37d894cf-be87-4c87-98bb-4018b47300c3",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "a0c573a7-bcc6-41c7-a2be-55bb83fce75f",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "6dc1d128-9552-4a04-859b-550f1bf16439"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello!",
+          "I'm Adam. I made\nthis game.",
+          "I'm gonna pop up\nin a few levels.",
+          "Come say hello\nif you get the\nchance."
+        ],
+        "__section": "text",
+        "avatarId": "68f66681-f647-4d92-81b6-9d89371290d1",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "db79baf5-b4b7-438d-b881-7ede7e92f558"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 15,
+  "_index": 0
+}
